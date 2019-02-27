@@ -58,7 +58,7 @@ echo "Creating database"
 
 cd $msfpath/metasploit-framework/config
 
-curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/database.yml
+curl -LO https://raw.githubusercontent.com/younghack3r/metasploit/master/database.yml
 
 
 mkdir -p $PREFIX/var/lib/postgresql
@@ -70,4 +70,4 @@ createdb msf_database
 
 rm $msfpath/$msfvar.tar.gz
 
-echo "you can directly use msfvenom or msfconsole rather than ./msfvenom or ./msfconsole."
+echo "LOVE MRX..you can directly use msfvenom or msfconsole rather than ./msfvenom or ./msfconsole."
